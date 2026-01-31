@@ -126,7 +126,7 @@ btnNo.addEventListener("click", function() {
 // Función para actualizar mensajes cuando se hace clic en "No"
 function updateNoMessage(count) {
     const messages = [
-        "¿Estás segur@? 🤔",
+        "¿Estás seguro? 🤔",
         "Piénsalo mejor... 🥺",
         "¡Venga, di que sí! 💛",
         "El botón 'Sí' se ve mejor, ¿no? 😊",
@@ -210,4 +210,5 @@ btnNo.addEventListener('mouseenter', function() {
 
 btnNo.addEventListener('mouseleave', function() {
     this.style.transform = 'translateY(0)';
+
 });
